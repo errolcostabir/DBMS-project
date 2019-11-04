@@ -1,0 +1,52 @@
+select * from doubts;
+delete from doubts;
+select * from sign_up;
+select * from t_signup;
+
+//code for sign_up
+create table sign_up(sid int,fname varchar(50),lname varchar(50),phone_no int,dept varchar(50),year varchar(50),username varchar(50),password varchar(50), primary key(sid));
+
+create sequence stud_seq
+start with 101
+increment by 1
+minvalue 101
+maxvalue 199
+cycle;
+
+
+CREATE OR REPLACE TRIGGER stud_trig
+BEFORE INSERT ON sign_up
+FOR EACH ROW
+BEGIN
+SELECT stud_seq.nextval
+INTO :new.sid
+FROM dual;
+END;
+
+
+
+create table t_signup(tid int,fname varchar(50),lname varchar(50),phone_no int,dept varchar(50),username varchar(50),password varchar(50), primary key(tid));
+
+create sequence t_seq
+start with 201
+increment by 1
+minvalue 201
+maxvalue 299
+cycle;
+
+
+CREATE OR REPLACE TRIGGER t_trig
+BEFORE INSERT ON t_signup
+FOR EACH ROW
+BEGIN
+SELECT t_seq.nextval
+INTO :new.tid
+FROM dual;
+END;
+
+create table doubts(id int,sid int,tid int,questions varchar(100),answers varchar(100),primary key(id));
+alter table doubts add constraint c1 foreign key(sid) references sign_up(sid);
+alter table doubts add constraint c2 foreign key(tid) references t_signup(tid);
+select * from sign_up;
+select * from t_signup;
+

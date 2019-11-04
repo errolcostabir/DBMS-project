@@ -1,0 +1,80 @@
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\obj\Debug\dbms.Properties.Resources.resources
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\obj\Debug\dbms.signin.resources
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\obj\Debug\dbms.signup.resources
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\obj\Debug\dbms.csproj.GenerateResource.Cache
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\bin\Debug\dbms.exe.config
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\bin\Debug\dbms.exe
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\bin\Debug\dbms.pdb
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\obj\Debug\dbms.exe
+c:\users\errol costabir\documents\visual studio 2017\Projects\dbms\dbms\obj\Debug\dbms.pdb
+C:\Users\ERROL COSTABIR\Documents\Visual Studio 2017\Projects\dbms\dbms\obj\Debug\dbms.dashboard.resources
+C:\Users\ERROL COSTABIR\Documents\Visual Studio 2017\Projects\dbms\dbms\obj\Debug\dbms.enquiry.resources
+C:\Users\ERROL COSTABIR\Documents\Visual Studio 2017\Projects\dbms\dbms\obj\Debug\dbms.marks.resources
+C:\Users\ERROL COSTABIR\Documents\Visual Studio 2017\Projects\dbms\dbms\obj\Debug\dbms.tsignup.resources
+C:\Users\ERROL COSTABIR\Documents\Visual Studio 2017\Projects\dbms\dbms\obj\Debug\dbms.Tdash.resources
+C:\Users\ERROL COSTABIR\Documents\Visual Studio 2017\Projects\dbms\dbms\bin\Debug\Oracle.DataAccess.dll
+C:\Users\ERROL COSTABIR\Documents\Visual Studio 2017\Projects\dbms\dbms\obj\Debug\dbms.csprojResolveAssemblyReference.cache
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\bin\Debug\dbms.exe.config
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\bin\Debug\dbms.exe
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\bin\Debug\dbms.pdb
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\bin\Debug\Oracle.DataAccess.dll
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.csprojAssemblyReference.cache
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.dashboard.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.marks.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.Properties.Resources.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.signin.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.signup.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.tsignup.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.csproj.GenerateResource.cache
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.csproj.CopyComplete
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.exe
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.pdb
+G:\dbms\dbms\bin\Debug\dbms.exe.config
+G:\dbms\dbms\obj\Debug\dbms.exe
+G:\dbms\dbms\obj\Debug\dbms.pdb
+G:\dbms\dbms\bin\Debug\dbms.exe
+G:\dbms\dbms\bin\Debug\dbms.pdb
+G:\dbms\dbms\bin\Debug\Oracle.DataAccess.dll
+G:\dbms\dbms\obj\Debug\dbms.csprojResolveAssemblyReference.cache
+G:\dbms\dbms\obj\Debug\dbms.dashboard.resources
+G:\dbms\dbms\obj\Debug\dbms.enquiry.resources
+G:\dbms\dbms\obj\Debug\dbms.marks.resources
+G:\dbms\dbms\obj\Debug\dbms.Properties.Resources.resources
+G:\dbms\dbms\obj\Debug\dbms.signin.resources
+G:\dbms\dbms\obj\Debug\dbms.signup.resources
+G:\dbms\dbms\obj\Debug\dbms.Tdash.resources
+G:\dbms\dbms\obj\Debug\dbms.tsignup.resources
+G:\dbms\dbms\obj\Debug\dbms.csproj.GenerateResource.Cache
+F:\dbms\dbms\bin\Debug\dbms.exe.config
+F:\dbms\dbms\bin\Debug\dbms.exe
+F:\dbms\dbms\bin\Debug\dbms.pdb
+F:\dbms\dbms\bin\Debug\Oracle.DataAccess.dll
+F:\dbms\dbms\obj\Debug\dbms.csprojAssemblyReference.cache
+F:\dbms\dbms\obj\Debug\dbms.dashboard.resources
+F:\dbms\dbms\obj\Debug\dbms.enquiry.resources
+F:\dbms\dbms\obj\Debug\dbms.marks.resources
+F:\dbms\dbms\obj\Debug\dbms.Properties.Resources.resources
+F:\dbms\dbms\obj\Debug\dbms.signin.resources
+F:\dbms\dbms\obj\Debug\dbms.signup.resources
+F:\dbms\dbms\obj\Debug\dbms.Tdash.resources
+F:\dbms\dbms\obj\Debug\dbms.tsignup.resources
+F:\dbms\dbms\obj\Debug\dbms.csproj.GenerateResource.cache
+F:\dbms\dbms\obj\Debug\dbms.csproj.CopyComplete
+F:\dbms\dbms\obj\Debug\dbms.exe
+F:\dbms\dbms\obj\Debug\dbms.pdb
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.update.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.doubts.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.teachhomepage.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.studentdoubt.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.stumarksupdate.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.csproj.ResolveComReference.cache
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.alcquestionpaper.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.alctextbook.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.attendence.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.itsallhere.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.vlsiquestionpaper.resources
+C:\Users\XAVIER MATHIAS\Documents\dbms\dbms\obj\Debug\dbms.vlsitextbook.resources

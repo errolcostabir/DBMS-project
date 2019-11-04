@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C0A920EB-29D9-471A-A775-F7782BC85492}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>dbms</RootNamespace>
+    <AssemblyName>dbms</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\oraclexe\app\oracle\product\11.2.0\server\odp.net\bin\4\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="alcquestionpaper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alcquestionpaper.designer.cs">
+      <DependentUpon>alcquestionpaper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alctextbook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alctextbook.designer.cs">
+      <DependentUpon>alctextbook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="attendence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="attendence.designer.cs">
+      <DependentUpon>attendence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="doubts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doubts.designer.cs">
+      <DependentUpon>doubts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itsallhere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itsallhere.designer.cs">
+      <DependentUpon>itsallhere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="marks.Designer.cs">
+      <DependentUpon>marks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="marksset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>marksset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="passclass.cs" />
+    <Compile Include="signin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signin.Designer.cs">
+      <DependentUpon>signin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="signup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="signup.Designer.cs">
+      <DependentUpon>signup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="studentdoubt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="studentdoubt.Designer.cs">
+      <DependentUpon>studentdoubt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stumarksupdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stumarksupdate.designer.cs">
+      <DependentUpon>stumarksupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="teachhomepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="teachhomepage.designer.cs">
+      <DependentUpon>teachhomepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tsignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tsignup.Designer.cs">
+      <DependentUpon>tsignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update.Designer.cs">
+      <DependentUpon>update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vlsiquestionpaper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vlsiquestionpaper.designer.cs">
+      <DependentUpon>vlsiquestionpaper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vlsitextbook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vlsitextbook.designer.cs">
+      <DependentUpon>vlsitextbook.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="alcquestionpaper.resx">
+      <DependentUpon>alcquestionpaper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alctextbook.resx">
+      <DependentUpon>alctextbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="attendence.resx">
+      <DependentUpon>attendence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doubts.resx">
+      <DependentUpon>doubts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itsallhere.resx">
+      <DependentUpon>itsallhere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="marks.resx">
+      <DependentUpon>marks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="signin.resx">
+      <DependentUpon>signin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="studentdoubt.resx">
+      <DependentUpon>studentdoubt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stumarksupdate.resx">
+      <DependentUpon>stumarksupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teachhomepage.resx">
+      <DependentUpon>teachhomepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tsignup.resx">
+      <DependentUpon>tsignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update.resx">
+      <DependentUpon>update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vlsiquestionpaper.resx">
+      <DependentUpon>vlsiquestionpaper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vlsitextbook.resx">
+      <DependentUpon>vlsitextbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="marksset.xsc">
+      <DependentUpon>marksset.xsd</DependentUpon>
+    </None>
+    <None Include="marksset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>marksset.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="marksset.xss">
+      <DependentUpon>marksset.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
